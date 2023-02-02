@@ -1,0 +1,38 @@
+.body{
+    background-image: url("./BG-pic.jpg");
+    top: 100px;
+    height: 100vh;
+    min-height: 400px;
+    background-size: cover;
+
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+.navbar-light .navbar-brand{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+.navbar {
+    background-color: black;
+}
+.nav-item {
+    padding-right: 30px;
+}
+.nav-link{
+    border-radius: 20px;
+}
+.nav-link:hover{
+    background-color: rgb(17, 126, 252);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    transition: 0.50s;
+}
+.nav-brand{
+    height: 100px;
+    width: 250px;
+}
